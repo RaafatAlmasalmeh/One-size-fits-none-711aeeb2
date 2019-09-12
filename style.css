@@ -1,0 +1,17 @@
+h1 {
+    color: red; 
+}
+
+body {
+	background-color: #5EDF59
+}
+
+progress {
+  margin: 4px;
+}
+
+progress:indeterminate {
+  opacity: 0.5;
+  background-color: lightgray;
+  box-shadow: 0 0 2px 1px red;
+}
